@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; /* Modern font */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif; /* Clean typography */
+  color: #333;
+}

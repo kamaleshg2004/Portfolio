@@ -1,0 +1,78 @@
+/* General Header Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* General Header Styles */
+.header {
+  background-color: #1a2634;  /* Dark background color */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif; /* Apply the new font */
+}
+
+/* Logo Styles */
+.logo {
+  color: #64ffda;  /* Bright color for logo */
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Navigation Bar Styles */
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #fff;  /* White text color for links */
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif; /* Apply the font to the links */
+}
+
+.nav a:hover {
+  color: #64ffda;  /* Change text color on hover */
+}
+
+/* Hamburger Icon for Mobile */
+.menu-icon {
+  display: none;  /* Hide on larger screens */
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Mobile Menu Display */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;  /* Show on mobile */
+  }
+
+  .nav {
+    display: none;  /* Hide the nav links by default */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    background-color: #1a2634;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+  }
+
+  .nav.active {
+    display: flex;  /* Show the nav links when active */
+  }
+
+  .nav a {
+    padding: 10px;
+    text-align: center;
+  }
+}
