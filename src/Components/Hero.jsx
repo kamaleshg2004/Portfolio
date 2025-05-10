@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section id="hero" className="hero-section">
       <div className="hero-content">
-        <h1>Hello,I'm <span>KAMALESH G</span></h1>
+        <h1 className="hero-title">Hello, I'm <span className="name">KAMALESH G</span></h1>
         <h2>Fullstack Developer</h2>
         <p>Building responsive and modern web applications using React, JavaScript, and Java for full-stack development.</p>
         <div className="hero-buttons">

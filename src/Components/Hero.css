@@ -66,7 +66,17 @@
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   }
-  
+  .hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.name {
+  display: inline;
+}
+
   /* Tablet view */
 @media (max-width: 768px) {
   .hero-content h1 {
@@ -110,5 +120,16 @@
   .hero-btn {
     padding: 10px 20px;
     font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .name {
+    display: block;
+    margin-top: 8px;
   }
 }
