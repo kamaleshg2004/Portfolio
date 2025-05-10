@@ -9,10 +9,11 @@ export default function About() {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            I'm a passionate frontend developer who loves crafting visually engaging and user-friendly web experiences. I specialize in building responsive interfaces using React, and I constantly seek to improve my skills with the latest web technologies.
+            I’m a passionate Java Full Stack Developer with hands-on experience in building dynamic and responsive web applications. My expertise lies in Java (Spring Boot) for backend development and React for creating clean, modern user interfaces. I enjoy solving complex problems and continuously learning new technologies to stay up-to-date in the fast-evolving tech landscape.
           </p>
           <p>
-            Whether it's transforming a UI design into a dynamic app or optimizing performance for users, I thrive on creating web solutions that are both beautiful and functional.
+            Whether it's building robust backend APIs with Java Spring Boot or crafting responsive UIs with React, I enjoy creating full-stack web applications that are efficient, scalable, and user-friendly.git add .
+
           </p>
         </div>
 
