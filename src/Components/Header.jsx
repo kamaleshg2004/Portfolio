@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className="header">
-      <div className="logo">MyPortfolio</div>
+      <div className="logo">My Portfolio</div>
       <nav className={`nav ${isMobile ? 'active' : ''}`}>
         <a href="#hero">Home</a>
         <a href="#about">About</a>

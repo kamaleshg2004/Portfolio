@@ -3,22 +3,22 @@ import './Projects.css';
 export default function Projects() {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'A description of the project. This can be a web app, a tool, or anything you’ve worked on.',
-      github: 'https://github.com/yourusername/project1',
-      live: 'https://project1.com',
+      title: 'Restaurant Website',
+      description: 'Built a static restaurant website with multiple pages in a clean, structured layout.',
+      github: 'https://github.com/kamaleshg2004/Restaurant-website',
+      live: 'https://goldenspoonn.netlify.app/',
     },
     {
-      title: 'Project 2',
-      description: 'A description of the project. Highlight what you learned and the technologies used.',
-      github: 'https://github.com/yourusername/project2',
-      live: 'https://project2.com',
+      title: 'Job Portal Website ',
+      description: 'Built a fully responsive multi-page job portal with role-based access for recruiters and job seekers.',
+      github: 'https://github.com/kamaleshg2004/Techhirehub',
+      live: 'https://techhirehub.netlify.app/',
     },
     {
-      title: 'Project 3',
-      description: 'A description of the project. Briefly mention the tech stack or specific features.',
-      github: 'https://github.com/yourusername/project3',
-      live: 'https://project3.com',
+      title: 'Travel Booking App',
+      description: 'Developed a responsive travel booking website featuring packages, contact and booking.',
+      github: 'https://github.com/kamaleshg2004/Travel-Booking-App',
+      live: 'https://gotripp.netlify.app/',
     },
     // Add more projects here
   ];
@@ -34,6 +34,9 @@ export default function Projects() {
       <div className="project-links">
         <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
           GitHub
+        </a>
+        <a href={project.live} target="_blank" rel="noopener noreferrer" className="project-link live-demo">
+          Live Demo
         </a>
       </div>
     </div>
