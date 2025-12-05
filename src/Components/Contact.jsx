@@ -14,7 +14,7 @@ export default function Contact() {
             <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="social-icon" />
             </a>
-            <a href="https://www.linkedin.com/in/kamalesh-gauthaman-968962224/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/g-kamalesh/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="social-icon" />
             </a>
             <a href="https://github.com/kamaleshg2004" target="_blank" rel="noopener noreferrer">
