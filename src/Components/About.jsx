@@ -18,7 +18,7 @@ export default function About() {
         </div>
 
         <div className="about-skills">
-          <h3>Skills</h3>
+          <h2>Skills</h2>
           <div className="skill-cards">
             <div className="skill-card">
                 <FaHtml5 className="skill-icon" />

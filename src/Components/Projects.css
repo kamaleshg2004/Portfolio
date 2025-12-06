@@ -64,6 +64,30 @@
   .project-link:hover {
     background-color: #4ab3b6;
   }
+
+
+.project-card {
+  background: #112240;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  color: #eee;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.3);
+}
+
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
   /* Media Queries for Projects Section */
 @media (max-width: 1024px) {
   .projects-container {

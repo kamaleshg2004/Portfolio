@@ -9,7 +9,7 @@ export default function Hero() {
         <p>Building responsive and modern web applications using HTML, css, javascript and react.</p>
         <div className="hero-buttons">
         <a href="#projects" className="hero-btn">View My Work</a>
-        <a href="/G_Kamalesh_BE(CSE)2025_7_65_CGPA_frontend.pdf" download className="hero-btn resume-btn">Download Resume</a>
+        <a href="/resume.pdf" download className="hero-btn resume-btn">Download Resume</a>
         </div>
       </div>
     </section>
